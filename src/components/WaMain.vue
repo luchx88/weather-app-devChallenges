@@ -95,7 +95,6 @@ export default {
       }
     },
     goToHistory(histLocation) {
-      debugger;
       this.enableSearch = !this.enableSearch;
       this.dataArr = [];
       this.location = histLocation.toLowerCase();
