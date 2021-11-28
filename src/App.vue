@@ -1,26 +1,28 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Welcome to Your Vue.js App" />
+  <WaMain />
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import WaMain from "./components/WaMain.vue";
+// import fetchApi from "./utils/fetchApi"
 
 export default {
   name: "App",
-  components: {
-    HelloWorld,
-  },
+  components: { WaMain },
 };
 </script>
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Raleway", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #100e1d;
 }
 </style>
